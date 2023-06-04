@@ -4,7 +4,7 @@ import {
   photos,
   sliderImages,
 } from "../data/data.js";
-import CustomSlider from "../components/Slider.js";
+import CustomSlider from "../components/Slider.jsx";
 
 const HomePage = () => {
   const [category, setCategory] = useState("");
